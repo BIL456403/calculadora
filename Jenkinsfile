@@ -4,10 +4,8 @@ pipeline {
     stages {
         stage('Clonar Repositorio') {
             steps {
-                script {
-                    // Clonar el repositorio desde GitHub
-                    git url: 'https://github.com/BIL456403/calculadora'
-                }
+                // Clonar el repositorio desde GitHub
+                git url: 'https://github.com/BIL456403/calculadora'
             }
         }
 
@@ -47,6 +45,7 @@ pipeline {
                 }
             }
         }
+    }
 
     post {
         success {
