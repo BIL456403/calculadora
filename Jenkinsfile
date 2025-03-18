@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Clonar el repositorio desde GitHub
-                    git branch: 'main', url: 'https://github.com/andreadeabd/calculadora'
+                    url: 'https://github.com/BIL456403/calculadora'
                 }
             }
         }
