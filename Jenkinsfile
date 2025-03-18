@@ -40,7 +40,7 @@ pipeline {
                     // Ejecutar pruebas dentro del entorno virtual
                     sh '''
                     . venv/bin/activate
-                    python3 -m unittest test_calculadora.py
+                    python3 -m unittest test_calculator.py
                     '''
                 }
             }
